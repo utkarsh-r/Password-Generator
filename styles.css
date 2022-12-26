@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Karla;
+    src: url("Karla-Regular.ttf");
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("Inter-VariableFont_slnt\,wght.ttf");
+}
+#container {
+    margin: 0 auto;
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    margin: 115px 144px 0px 52px;
+    width: 354px;
+    height: 80px;
+}
+
+#first-line {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+#second-line {
+    margin: 0;
+    color: #55F991;
+}
+
+.title-style {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+}
+
+#supporting-text {
+    margin-left: 52px;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+#gen-pw {
+    width: 191px;
+    height: 42px;
+    padding: 9px 10px 9px 10px;
+    font-size: medium;
+    background: #10B981;
+    margin-left: 52px;
+    margin-top: 51px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+}
+
+hr {
+    width: 446px;
+    height: 0px;
+    border: 1px solid #2F3E53;
+    margin-top: 35px;
+    background: #2F3E53;
+    margin-bottom: 0px;
+}
+
+#passwords {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.pw-field {
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+}
